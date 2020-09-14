@@ -65,3 +65,7 @@ h2 {
 label {
     color: #FFF;
 }
+
+html {
+    scroll-behavior: smooth;
+}
