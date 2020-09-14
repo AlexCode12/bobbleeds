@@ -1,17 +1,20 @@
 h1 {
 font-style: normal;
 font-weight: bold;
-font-size: 32px;
-line-height: 29px;
+font-size: 4vh;
+line-height: 4vh;
 color: #828195;
 text-align: center;
 margin-top: 3%;
 }
 
-h3 {
+h4 {
+    text-align: center;
     font-style: normal;
     font-weight: bold;
     margin: 5%;
+    font-size: 3vh;
+    line-height: 3.5vh;
 }
 
 h6 {
@@ -27,16 +30,17 @@ color: #828195;
     margin: 5%;
     background-color: #9B287B;
     color: #FFF;
-    font-size: 30px;
+    font-size: 4vh;
     margin-bottom: 25%;
 }
 
 p {
-    margin: 5%;
+    margin-left: 5%;
 }
 label {
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: #FFF;
 }
 
 .form-group, .form-check {
@@ -57,15 +61,16 @@ label {
     background-color: #0A2342;
     color: #FFF;
 }
-
-h2 {
-    color: #FFF;
-}
-
-label {
-    color: #FFF;
+.media {
+    margin-left: 3%;
 }
 
 html {
     scroll-behavior: smooth;
+}
+a {
+    text-align: center;
+}
+img {
+    margin-right: 3%;
 }
