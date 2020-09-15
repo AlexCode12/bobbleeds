@@ -33,23 +33,17 @@ margin-bottom: 10%;
 color: #828195;
 }
 
-.button {
+.btn {
     margin: 5%;
-    background-color: #9B287B;
-    color: #FFF;
     font-size: 4vh;
     margin-bottom: 25%;
-}
-.btn {
-    margin-left: 5%;
-    font-size: 4vh;
 }
 
 p {
     margin-left: 5%;
 }
 label {
-    margin-top: 2%;
+    margin-top: 5%;
     margin-bottom: 2%;
     color: #FFF;
 }
