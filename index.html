@@ -13,7 +13,7 @@
 
 <body>
     <nav class="navbar sticky-top navbar-light bg-light">
-        <img src="img/download.svg" alt="Logo" height="49px" width="49px">
+        <img src="img/download.svg" alt="Logo" height="50px" width="50px">
         <a class="navbar-brand" href="#">BOBBLEEDS</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,7 +45,8 @@
                 <p>Företaget skapades 2020 och har syfte att förgylla skrivborden, hyllorna eller dylikt med
                     Leeds-relaterat innehåll. </p>
             </div>
-            <img class="ml-3" src="img/Skärmklipp.PNG" alt="Bild på Bobbleeds - Hemmaställ" width="170px" height="250px">
+            <img class="ml-3" src="img/Skärmklipp.PNG" alt="Bild på Bobbleeds - Hemmaställ" width="170px"
+                height="250px">
         </div>
     </section>
     <a href="#products"><button class="button">VÅRA PRODUKTER</button></a>
@@ -55,10 +56,12 @@
             <div class="media-body">
                 <h4 class="mt-0 mb-1">VÅRA PRODUKTER</h4>
                 <p>Våra produkter designas och skrivs ut med hjälp av 3D-moddelering och 3D-skrivare. </p>
-                <p>För tillfället har vi planer på att lansera Bobbleheads med Leeds hemma- och bortaställ under säsongen
+                <p>För tillfället har vi planer på att lansera Bobbleheads med Leeds hemma- och bortaställ under
+                    säsongen
                     2020/21. </p>
             </div>
-            <img class="ml-3" src="img/Skärmklipp1.PNG" alt="Bild på Bobbleeds - Hemmaställ" width="170px" height="250px">
+            <img class="ml-3" src="img/Skärmklipp1.PNG" alt="Bild på Bobbleeds - Hemmaställ" width="170px"
+                height="250px">
         </div>
         <a href="#order"><button class="button">BESTÄLL NU</button></a>
         </div>
@@ -83,24 +86,38 @@
                         BOBBLEEDS AB hanterar dina
                         uppgifter under 12 månaders tid i syfte att kontakta dig om företagets produkter.</label>
                 </div>
-                <a href="#thankyou"><button class="button">SKICKA</button></a>
-                <div class="form-check">
-                    <div class="footer-copyright text-center py-5">© 2020 Copyright: Bobbleeds AB
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    SKICKA
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">BOBBLEEDS</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h1>TACK!</h1>
+                                <h5>Ditt meddelande har skickats!</h5>
+                                <img class="rounded float-left" src="img/Skärmklipp.PNG"
+                                    alt="Bild på Bobbleeds - Hemmaställ" width="116px" height="170px">
+                                <img class="rounded float-right" src="img/Skärmklipp1.PNG"
+                                    alt="Bild på Bobbleeds - Hemmaställ" width="116px" height="170px">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </form>
+                <div class="footer-copyright text-center py-5">
+                    © 2020 Copyright: Bobbleeds AB
+                </div>
         </div>
-    </section>
-    <section class="form" id="thankyou">
-        <div class="form">
-            <div class="media-body">
-                <h4 class="mt-0 mb-1">TACK FÖR DITT MEDDELANDE!</h4>
-                <img class="rounded float-left" src="img/Skärmklipp.PNG" alt="Bild på Bobbleeds - Hemmaställ" width="170px" height="250px">
-                <img class="rounded float-right" src="img/Skärmklipp1.PNG" alt="Bild på Bobbleeds - Hemmaställ" width="170px" height="250px">
-
-                <p>VI ÅTERKOMMER MED SVAR PÅ DITT MEDDELANDE INOM KORT</p>
-                <a href="#order"><button class="button">OK</button></a>
-            </div>
+        </form>
         </div>
     </section>
 </body>
