@@ -91,6 +91,9 @@ img {
     margin-right: 3%;
 }
 
+.navbar-brand {
+    margin-right: 1%;
+}
 
 
 @media screen and (min-width: 992px) {
@@ -172,5 +175,7 @@ img {
         img {
             margin-right: 3%;
         }
-
+        .navbar-brand {
+            margin-right: 2.5%;
+        }
   }
