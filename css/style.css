@@ -126,7 +126,7 @@ img {
         }
         
         .btn {
-            margin-left: 7%;
+            margin-left: 5%;
             font-size: 4vh;
             margin-bottom: 5%;
         }
@@ -148,7 +148,7 @@ img {
         }
         
         .produkter {
-            padding-top: 1%;
+            padding-top: 5%;
             background-color: #828A95;
             color: #FFF;
         }
@@ -161,6 +161,8 @@ img {
 
         html {
             scroll-behavior: smooth;
+            overflow: scroll;
+            -webkit-overflow-scrolling: touch;
         }
         
         a {
