@@ -35,13 +35,12 @@ color: #828195;
 
 .btn {
     margin: 5%;
-    font-size: 4vh;
-    margin-bottom: 30%;
+    font-size: 3vh;
+    margin-bottom: 10%;
 }
 
 p {
     margin-left: 5%;
-    margin-bottom: 25%;
 }
 
 label {
@@ -67,7 +66,7 @@ label {
 }
 
 .form {
-    padding-top: 15%;
+    padding-top: 5%;
     background-color: #0A2342;
     color: #FFF;
 }
@@ -75,6 +74,9 @@ label {
 .media {
     margin-top: 20%;
     margin-left: 3%;
+}
+.container {
+    padding: 1%;
 }
 
 html {
