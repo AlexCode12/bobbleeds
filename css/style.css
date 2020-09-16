@@ -36,12 +36,12 @@ color: #828195;
 .btn {
     margin: 5%;
     font-size: 4vh;
-    margin-bottom: 25%;
+    margin-bottom: 30%;
 }
 
 p {
     margin-left: 5%;
-    margin-bottom: 15%;
+    margin-bottom: 25%;
 }
 
 label {
@@ -88,3 +88,87 @@ a {
 img {
     margin-right: 3%;
 }
+
+
+
+@media screen and (min-width: 992px) {
+
+    h1 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 4vh;
+        line-height: 4vh;
+        color: #828195;
+        text-align: center;
+        margin-top: 3%;
+        }
+        
+        h4 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 3vh;
+            margin-top: 2%;
+        }
+        
+        h5 {
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 5%;
+        color: #828195;
+        }
+        
+        h6 {
+        font-family: Trirong;
+        font-style: italic;
+        font-weight: bold;
+        text-align: center;
+        color: #828195;
+        }
+        
+        .btn {
+            margin-left: 7%;
+            font-size: 4vh;
+            margin-bottom: 5%;
+        }
+        
+        p {
+            margin-left: 5%;
+            margin-bottom: 5%;
+        }
+        
+        label {
+            margin-top: 1%;
+            margin-bottom: 1%;
+            color: #FFF;
+        } 
+        
+        .vilka {
+            background-color: #FFF;
+            color: #828A95;
+        }
+        
+        .produkter {
+            padding-top: 1%;
+            background-color: #828A95;
+            color: #FFF;
+        }
+        
+        .form {
+            padding-top: 5%;
+            background-color: #0A2342;
+            color: #FFF;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        a {
+            text-align: center;
+        }
+        
+        img {
+            margin-right: 3%;
+        }
+
+  }
