@@ -1,8 +1,19 @@
+/* h1 {
+font-style: normal;
+font-weight: bold;
+font-size: 4vh;
+line-height: 4vh;
+color: #828195;
+text-align: center;
+margin-top: 3%;
+} */
+
 .page-title {
     font-weight: 800;
 }
 
 .leeds-gray {
+    /* color: #828195; */
     color: #828A95;
 }
 
