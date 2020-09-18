@@ -49,7 +49,7 @@
                     Leeds-relaterat innehåll. </p>
             </div>
             <div class="col-6">
-                <img class="ml-3" src="img/BLS-front-kontrastChange.png" alt="Bild på Bobbleeds - Hemmaställ">
+                <img src="img/BLS-front-kontrastChange.png" alt="Bild på Bobbleeds - Hemmaställ">
             </div>
         </div>
         <div class="row mt-3">
@@ -57,7 +57,7 @@
                 <a href="#products"><button type="button" class="btn btn-dark">VÅRA PRODUKTER</button></a>
             </div>
         </div>
-        <section class="products">
+        <section class="products" id="products">
             <div class="produkter">
                 <h4>VÅRA PRODUKTER</h4>
                 <div class="row mt-3">
@@ -68,76 +68,77 @@
                             2020/21. </p>
                     </div>
                     <div class="col-6">
-                        <img class="ml-3" src="img/BLS-front-kontrastChange.png" alt="Bild på Bobbleeds - Hemmaställ">
+                        <img src="img/BLS-front-kontrastChange.png" alt="Bild på Bobbleeds - Hemmaställ">
                     </div>
                 </div>
                 <div class="row mt-3">
                     <div class="col">
-                        <a href="#products"><button type="button" class="btn btn-dark">BESTÄLL NU</button></a>
+                        <a href="#order"><button type="button" class="btn btn-dark">BESTÄLL NU</button></a>
                     </div>
                 </div>
+            </div>
         </section>
-    </div>
-    </div>
-    <section class="form" id="order">
-        <div class="container">
-            <h4>ANMÄL DITT INTRESSE REDAN IDAG!</h4>
-            <p>Fyll i ditt intresse i formuläret nedan så återkommer vi med svar inom 24 timmar!</p>
-            <form>
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Förnamn</label>
-                    <input type="text" class="form-control" placeholder="Skriv ditt förnamn här">
-                    <label for="exampleInputEmail1">Efternamn</label>
-                    <input type="text" class="form-control" placeholder="Skriv ditt efternamn här">
-                    <label for="exampleInputEmail1">E-postadress</label>
-                    <input type="email" class="form-control" placeholder="Skriv din e-postadress här">
-                    <label for="exampleInputEmail1">Ämne</label>
-                    <input type="text" class="form-control" placeholder="Skriv ditt ämne här">
-                    <label for="exampleFormControlTextarea1">Meddelande</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                        placeholder="Skriv ditt meddelande här"></textarea>
-                    <label class="form-check-label" for="exampleCheck1">OBS: När du trycker på "Skicka in meddelandet"
-                        samtycker du till att
-                        BOBBLEEDS AB hanterar dina
-                        uppgifter under tiden fram tills lansering av de första modellerna i syfte att kontakta dig om
-                        företagets produkter.</label>
-                </div>
-                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal">
-                    SKICKA IN MEDDELANDET
-                </button>
-                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
-                    aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">BOBBLEEDS</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <h1 class="page-header text-center leeds-gray text-uppercase">TACK!</h1>
-                                <h5>Ditt meddelande har skickats!</h5>
-                                <img class="rounded float-left" src="img/BLS-front-kontrastChange.png"
-                                    alt="Bild på Bobbleeds - Hemmaställ" width="116px" height="170px">
-                                <img class="rounded float-right" src="img/BLS-front-kontrastChange.png"
-                                    alt="Bild på Bobbleeds - Hemmaställ" width="116px" height="170px">
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-dark" data-dismiss="modal">OK</button>
+        <section class="form" id="order">
+            <div class="container">
+                <h4>ANMÄL DITT INTRESSE REDAN IDAG!</h4>
+                <p>Fyll i ditt intresse i formuläret nedan så återkommer vi med svar inom 24 timmar!</p>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Förnamn</label>
+                        <input type="text" class="form-control" placeholder="Skriv ditt förnamn här">
+                        <label for="exampleInputEmail1">Efternamn</label>
+                        <input type="text" class="form-control" placeholder="Skriv ditt efternamn här">
+                        <label for="exampleInputEmail1">E-postadress</label>
+                        <input type="email" class="form-control" placeholder="Skriv din e-postadress här">
+                        <label for="exampleInputEmail1">Ämne</label>
+                        <input type="text" class="form-control" placeholder="Skriv ditt ämne här">
+                        <label for="exampleFormControlTextarea1">Meddelande</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Skriv ditt meddelande här"></textarea>
+                        <label class="form-check-label" for="exampleCheck1">OBS: När du trycker på "Skicka in meddelandet"
+                            samtycker du till att
+                            BOBBLEEDS AB hanterar dina
+                            uppgifter under tiden fram tills lansering av de första modellerna i syfte att kontakta dig om
+                            företagets produkter.</label>
+                    </div>
+                    <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal">
+                        SKICKA IN MEDDELANDET
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">BOBBLEEDS</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <h1 class="page-header text-center leeds-gray text-uppercase">TACK!</h1>
+                                    <h5>Ditt meddelande har skickats!</h5>
+                                    <img class="rounded float-left" src="img/BLS-front-kontrastChange.png"
+                                        alt="Bild på Bobbleeds - Hemmaställ" width="116px" height="170px">
+                                    <img class="rounded float-right" src="img/BLS-front-kontrastChange-mirror.png"
+                                        alt="Bild på Bobbleeds - Hemmaställ" width="116px" height="170px">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-dark" data-dismiss="modal">OK</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <footer>
-                    <div class="footer-copyright text-center py-5">
-                        © 2020 Copyright: Bobbleeds AB
-                    </div>
-                </footer>
-        </div>
-        </form>
-        </div>
-    </section>
+                    <footer>
+                        <div class="footer-copyright text-center py-5">
+                            © 2020 Copyright: Bobbleeds AB
+                        </div>
+                    </footer>
+            </div>
+            </form>
+            </div>
+        </section>
+    </div>
+    
     </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
