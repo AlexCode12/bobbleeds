@@ -1,40 +1,26 @@
 .page-title {
     font-weight: 800;
 }
+.page-maintext {
+    font-weight: 500;
+}
+.page-header {
+    font-weight: 700;
+}
 
 .leeds-gray {
     color: #828A95;
 }
 
-h4 {
-    text-align: center;
-    font-style: normal;
-    font-weight: bold;
-    margin: 5%;
-    font-size: 3vh;
-    line-height: 3.5vh;
-}
-
 h5 {
 font-weight: bold;
 text-align: center;
-margin-bottom: 10%;
-color: #828195;
-}
-
-h6 {
-font-family: Trirong;
-font-style: italic;
-font-weight: bold;
-text-align: center;
-margin-bottom: 10%;
 color: #828195;
 }
 
 .btn {
     margin: 5%;
     font-size: 3vh;
-    margin-bottom: 10%;
 }
 
 p {
@@ -51,11 +37,6 @@ label {
     margin: 5%
 }
 
-.vilka {
-    background-color: #FFF;
-    color: #828A95;
-}
-
 .produkter {
     background-color: #828A95;
     color: #FFF;
@@ -64,11 +45,6 @@ label {
 .form {
     background-color: #0A2342;
     color: #FFF;
-}
-
-.media {
-    margin-top: 20%;
-    margin-left: 3%;
 }
 
 html {
@@ -83,29 +59,8 @@ img {
     margin-right: 3%;
 }
 
-.navbar-brand {
-    margin-right: 1%;
-}
-
 
 @media screen and (min-width: 992px) {
-
-    h1 {
-        font-style: normal;
-        font-weight: bold;
-        font-size: 4vh;
-        line-height: 4vh;
-        color: #828195;
-        text-align: center;
-        margin-top: 3%;
-        }
-        
-        h4 {
-            font-style: normal;
-            font-weight: bold;
-            font-size: 3vh;
-            margin-top: 2%;
-        }
         
         h5 {
         font-weight: bold;
@@ -139,12 +94,6 @@ img {
             color: #FFF;
         } 
         
-        .vilka {
-            padding-top: 0%;
-            background-color: #FFF;
-            color: #828A95;
-        }
-        
         .produkter {
             padding-top: 5%;
             background-color: #828A95;
@@ -152,7 +101,6 @@ img {
         }
         
         .form {
-            padding-top: 5%;
             background-color: #0A2342;
             color: #FFF;
         }
@@ -170,8 +118,5 @@ img {
         }
         .navbar-brand {
             margin-right: 2.5%;
-        }
-        .container {
-            padding-top: 0%;
         }
   }
