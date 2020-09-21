@@ -23,6 +23,15 @@ color: #828195;
     font-size: 3vh;
 }
 
+.modal-dialog {
+    margin: 0;
+}
+
+.modal {
+    margin-right: 0.5rem;
+    width: 100% !important;
+}
+
 p {
     margin-left: 5%;
 }
@@ -37,7 +46,7 @@ label {
     margin: 5%
 }
 
-.produkter {
+.products {
     background-color: #828A95;
     color: #FFF;
 }
@@ -54,11 +63,6 @@ html {
 a {
     text-align: center;
 }
-
-img {
-    margin-right: 3%;
-}
-
 
 @media screen and (min-width: 992px) {
         
